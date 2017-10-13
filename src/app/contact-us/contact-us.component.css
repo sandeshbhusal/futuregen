@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+
+*{
+	font-family: 'quicksand';
+	font-weight: bold;
+	color: white;
+}
+table{
+	width: 100%;
+}
+table tr td{
+	padding: 5px;
+}
+input{
+	background: none;
+	border: none;
+	border-bottom: 1px dotted white;
+	padding: 5px;
+	outline: none;
+}
+input::placeholder{
+	color: white;
+}
+textarea{
+	background: none;
+	outline: none;
+	padding: 5px;
+	border-radius: 4px;
+	background: #f1f1f1;
+	color: black;
+	height: auto;
+	width: 80%;
+	margin-top: 20px;
+	height: 150px;
+}
+.submitButton{
+	width: 30%;
+	margin-left:50%;
+	margin-top: 20px;
+}

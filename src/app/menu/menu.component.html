@@ -1,0 +1,35 @@
+<app-header></app-header>
+<div class = 'container'>
+	<div class = 'row'>
+		<div class = 'col-md-12'>
+			<h1 class = "animated fadeInDown text-center">
+			</h1>
+			<p class = 'text-center animated fadeIn'>
+				Start typing below to see all.
+			</p>
+		</div>
+	</div>
+	<div class = 'row searchRow'>
+		<span class = 'col-md-4'>
+			<!-- Spacer -->
+		</span>
+		<input class = 'searchBar col-md-4 animated fadeInDown' autofocus placeholder="Type here"/>
+	</div>
+</div>
+<br  />
+<div class = 'container'>
+	<div class = 'row col-md-12'>
+		<h5 class = "changeText animated fadeIn">Popular Today: </h5>
+	</div>
+	<div class = 'row'>
+		<div class = "col-md-12">
+			<div class = 'col-md-2 md-card animated zoomIn quick' *ngFor = "let item of popular" width = '1rem'>
+				<img src = {{item.Image}} />
+				<h5>{{ item.Name }}</h5>
+			</div>
+		</div>
+	</div>
+</div>
+<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+<br />
+<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />a

@@ -1,0 +1,26 @@
+<app-header></app-header>
+<div class = "container">
+	<div class = "row">
+		<div class = "col-md-4">
+			<!-- Spacer -->
+		</div>
+		<div class = "logonbox col-md-4 center">
+			<div class = "loginbox magictime ">
+				<br />
+				<h4 class = 'animated fadeIn'>LOGIN</h4>
+				<span class = "row form-group">
+					<div class = "center animated fadeIn">
+						<div class = "spinner">
+							<!-- Spinner -->
+						</div>
+						<input class = "username  " placeholder="Username" #username />
+						<input class = "password " type = "password" placeholder="Password" #password />
+					</div>
+				</span>
+				<span class = "row">
+					<button class = "btn btn-danger btn-block animated fadeIn" (click) = "validatedata(username.value, password.value)">Next</button>
+				</span>
+			</div>
+		</div>
+	</div>
+</div>

@@ -1,1 +1,21 @@
 /* You can add global styles to this file, and also import other style files */
+body{
+	/*background: url('assets/403.jpg');*/
+	/*background: url('https://i.pinimg.com/originals/14/c5/8e/14c58e6281ea0396d0b8df5803fa3406.jpg');*/
+	background: url('http://longwallpapers.com/Desktop-Wallpaper/food-art-wallpapers-for-android-For-Desktop-Wallpaper.jpg');
+	font-family: 'quicksand';
+	background-size: cover;
+	background-repeat: no-repeat;
+	overflow-y: hidden;
+	background-attachment: fixed;
+}
+.overlay{
+	background: #000000;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	height: 100%;
+	width: 100%;
+	z-index: -100;
+	opacity: .8;
+}
